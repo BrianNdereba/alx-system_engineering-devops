@@ -1,4 +1,2 @@
 #!/bin/bash
-ls -a -1 | sed 's/$/,/' | sed 's/^\.$/.\
-&/' | sed 's/^\.\.$/.\
-&/' | sed 's/[^[:alnum:]\.\/]/\\&/g' | sort -d -f -k1.1,1.1 -k2n -t/ | sed 's/\.$/\//' | tr -d '\n'; echo
+./, ../, .git/, .hidden_file.txt, 1file.txt, 2file.txt, Dir1/, Dir2/, Dir3
