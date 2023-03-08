@@ -1,2 +1,2 @@
 #!/bin/bash
-./, ../, .git/, .hidden_file.txt, 1file.txt, 2file.txt, Dir1/, Dir2/, Dir3
+./, ../, .git/, .hidden_file.txt, 1file.txt, 2file.txt, Dir1/, Dir2/, Dir3/
