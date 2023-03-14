@@ -1,2 +1,2 @@
 #!/bin/bash
-sed -n 'n;p' < input_file
+paste -d, - - | cut -d,  -fl
